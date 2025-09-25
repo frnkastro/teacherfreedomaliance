@@ -2,42 +2,61 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+
+    <!-- Favicon & PWA -->
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- Primary SEO -->
+    <title>TeacherFreedomAliance — Pro-Union Resources for Educators</title>
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="TeacherFreedomAliance.com is an independent parody/advocacy site that points educators to real unions and affiliates (NEA, AFT, and locals). Not affiliated with Teacher Freedom Alliance."
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    <meta name="robots" content="index,follow" />
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <!-- Canonical (update to your live URL) -->
+    <link rel="canonical" href="https://teacherfreedomaliance.com/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="TeacherFreedomAliance — Pro-Union Resources for Educators" />
+    <meta
+      property="og:description"
+      content="Independent parody/advocacy project supporting teachers' unions. Find NEA, AFT, and local affiliates."
+    />
+    <meta property="og:url" content="https://teacherfreedomaliance.com/" />
+    <meta property="og:image" content="%PUBLIC_URL%/og-image.png" />
+    <meta property="og:site_name" content="TeacherFreedomAliance" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="TeacherFreedomAliance — Pro-Union Resources for Educators" />
+    <meta
+      name="twitter:description"
+      content="Independent parody/advocacy project supporting teachers' unions. Find NEA, AFT, and local affiliates."
+    />
+    <meta name="twitter:image" content="%PUBLIC_URL%/og-image.png" />
+
+    <!-- Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- GA4 (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-B2N6YKRCJM"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){ dataLayer.push(arguments); }
+      gtag("js", new Date());
+      gtag("config", "G-B2N6YKRCJM");
+    </script>
+
+    <!-- Optional: preconnects if you later add webfonts or analytics-heavy hosts -->
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> -->
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
 </html>
