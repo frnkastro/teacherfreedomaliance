@@ -232,7 +232,7 @@ const style = [].join(";");
         </div>
       </section>
 
-      {/* Get Help */}
+      {/* Get Help
       <section id="get-help" className="bg-white border-t border-slate-200">
         <div className="max-w-6xl mx-auto px-4 py-16 grid md:grid-cols-2 gap-10">
           <div>
@@ -265,7 +265,7 @@ const style = [].join(";");
             </form>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Footer */}
       <footer className="border-t border-slate-200">
