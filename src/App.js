@@ -292,9 +292,6 @@ const OKLAHOMA_ARTICLES = [
     const style = [].join(";");
 
     console.log(style, art);
-    console.log(
-      "Oh look devtools. Get in contact with me at frnkastroparty@gmail.com"
-    );
   }, []);
 
   return (
